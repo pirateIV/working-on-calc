@@ -1,0 +1,84 @@
+* {
+  font-family: 'Tahoma', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	background-color: brown;
+}
+.container {
+	background-color: #b3b3b3;
+	border-radius: 5px;
+	padding: 0.6rem;
+	width: 350px;
+}
+.container .calculator__result {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.container .calculator__result *{
+	width: 100%;
+	display: grid;
+	margin: auto;
+	padding: 0.5rem 0;
+}
+.container .calculator__result *:last-child {
+	padding: 1.3rem 0;
+	font-size: auto;
+}
+.container #keys{
+	display: grid;
+	width: 100%;
+	grid-gap: 3px;
+	grid-template-columns: repeat(4, 1fr);
+}
+.container .calculator__mem-buttons {
+	display: flex;
+	padding: 0.5rem 0.3rem;
+	justify-content: space-between;
+}
+.container .calculator__mem-buttons * {
+	border: 0;
+	background-color: inherit;
+	text-transform: uppercase;
+}
+.container .calculator__result *,
+.container #keys * {
+	border: 0;
+}
+.container #keys *:nth-child(4){
+	background-image: url(../public/backspace.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.container #keys button {
+	font-size: 22px;
+	cursor: pointer;
+	padding: 0.8rem 0.8rem;
+}
+.container #keys button:first-child,
+.container #keys button:nth-child(2),
+.container #keys button:nth-child(3),
+.container #keys button:nth-child(4),
+.container #keys button:nth-child(5),
+.container #keys button:nth-child(6),
+.container #keys button:nth-child(7),
+.container #keys button:nth-child(8),
+.container #keys button:nth-child(12),
+.container #keys button:nth-child(16),
+.container #keys button:nth-child(20){
+    background-color: lightgray;
+}
+.container #keys button:hover {
+	background-color: #ddd;
+}
+.container #keys button:last-child{
+	background-color: #479ac7;
+}

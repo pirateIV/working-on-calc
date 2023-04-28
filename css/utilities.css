@@ -1,0 +1,12 @@
+
+.text-muted {color: gray;}
+.text-dark {color: black;}
+/* #calculator::after {
+	content: 'Calculator';
+	font-size: 70px;
+	transform: rotate(310deg);
+	position: absolute;
+	top: 0;
+	left: -60px;
+	z-index: -1;
+} */

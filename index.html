@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+
+  	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/utilities.css">
+</head>
+<body>
+  <div id="calculator">
+		<div class="container" class="container">
+			<div class="calculator__result">
+				<input type="text" id="displayOne" readonly>
+
+				<input type="number" id="displayResult" readonly>
+			</div>
+			<div class="calculator__mem-buttons">
+				<button class="calculator__m-btn text-muted" disabled>mc</button>
+				<button class="calculator__m-btn text-muted" disabled>mr</button>
+				<button class="calculator__m-btn text-dark" disabled>m+</button>
+				<button class="calculator__m-btn text-dark" disabled>m-</button>
+				<button class="calculator__m-btn text-dark" disabled>ms</button>
+				<button class="calculator__m-btn text-muted" disabled>m</button>
+			</div>
+			<div class="num-buttons" id="keys">
+				<button>%</button>
+				<button>CE</button>
+				<button>C</button>
+				<button></button>
+
+				<button>
+					&#x215F;<small>x</small>
+				</button>
+				<button>
+					x<sup><small>2</small></sup>
+				</button>
+				<button>
+					&#x00B2;&radic;x
+				</button>
+				<button class="text-muted">÷</button>
+
+				<button>7</button>
+				<button>8</button>
+				<button>9</button>
+				<button class="text-muted">×</button>
+
+				<button>4</button>
+				<button>5</button>
+				<button>6</button>
+				<button class="text-muted">-</button>
+
+				<button>1</button>
+				<button>2</button>
+				<button>3</button>
+				<button class="text-muted">+</button>
+
+				<button>±</button>
+				<button>0</button>
+				<button>.</button>
+				<button>=</button>
+			</div>
+		</div>
+  </div>
+
+    <script src="./calculator.js"></script>
+</body>
+</html>
