@@ -25,7 +25,7 @@
 				<button class="calculator__m-btn text-dark" disabled>ms</button>
 				<button class="calculator__m-btn text-muted" disabled>m</button>
 			</div>
-			<div class="num-buttons" id="keys">
+			<div class="key__buttons" id="keys">
 				<button>%</button>
 				<button>CE</button>
 				<button>C</button>
@@ -40,31 +40,31 @@
 				<button>
 					&#x00B2;&radic;x
 				</button>
-				<button class="text-muted">÷</button>
+				<button class="text-muted calc__operator" onclick="operators('/')">÷</button>
 
-				<button>7</button>
-				<button>8</button>
-				<button>9</button>
-				<button class="text-muted">×</button>
+				<button class="num__btn calc__btn-number">7</button>
+				<button class="num__btn calc__btn-number">8</button>
+				<button class="num__btn calc__btn-number">9</button>
+				<button class="text-muted calc__operator" onclick="operators('*')">×</button>
 
-				<button>4</button>
-				<button>5</button>
-				<button>6</button>
-				<button class="text-muted">-</button>
+				<button class="num__btn calc__btn-number">4</button>
+				<button class="num__btn calc__btn-number">5</button>
+				<button class="num__btn calc__btn-number">6</button>
+				<button class="text-muted calc__operator" onclick="operators('-')">-</button>
 
-				<button>1</button>
-				<button>2</button>
-				<button>3</button>
-				<button class="text-muted">+</button>
+				<button class="num__btn calc__btn-number">3</button>
+				<button class="num__btn calc__btn-number">2</button>
+				<button class="num__btn calc__btn-number">1</button>
+				<button class="text-muted calc__operator" onclick="operators('+')">+</button>
 
 				<button>±</button>
-				<button>0</button>
+				<button class="num__btn calc__btn-number">0</button>
 				<button>.</button>
-				<button>=</button>
+				<button id="calculate">=</button>
 			</div>
 		</div>
   </div>
 
-    <script src="./calculator.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
