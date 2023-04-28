@@ -6,7 +6,7 @@ const operators = document.querySelectorAll(".key__buttons .calc__operator")
 // functio
 
 keys.forEach((number) => {
-	number.style.backgroundColor = 'red'
+	number.style.backgroundColor = 'purple'
 
 	number.addEventListener("click", updateNum)
 	function updateNum(num){
@@ -47,8 +47,10 @@ keys.forEach((number) => {
 
 operators.addEventListener('click', operator());
 
-function operator(oper){
-	readOnlyDisplay.value += displayResult.value + oper;
+function operator(number){
+	// readOnlyDisplay.value += displayResult.value + number;
+	// readOnlyDisplay.value += oper;
+	// readOnlyDisplay.value = ''
 	
 	oper = num;
 
