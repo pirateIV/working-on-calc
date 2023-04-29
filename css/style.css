@@ -13,7 +13,6 @@ body {
 	background-color: purple;
 }
 .container {
-	background-color:  #e7e6e6;
 	border-radius: 5px;
 	padding: 0.6rem;
 	width: 350px;
@@ -34,7 +33,6 @@ body {
 }
 .container .calculator__result *:last-child {
 	padding: 1.3rem 0;
-	color: #000;
 	height: 20px;
 	font-size: 50px;
 }
@@ -67,19 +65,6 @@ body {
 	font-size: 22px;
 	cursor: pointer;
 	padding: 0.8rem 0.8rem;
-}
-.container #keys button:first-child,
-.container #keys button:nth-child(2),
-.container #keys button:nth-child(3),
-.container #keys button:nth-child(4),
-.container #keys button:nth-child(5),
-.container #keys button:nth-child(6),
-.container #keys button:nth-child(7),
-.container #keys button:nth-child(8),
-.container #keys button:nth-child(12),
-.container #keys button:nth-child(16),
-.container #keys button:nth-child(20){
-    background-color: lightgray;
 }
 .container #keys button:hover {
 	background-color: #ddd;

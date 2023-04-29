@@ -1,12 +1,22 @@
+:root{
+	--000: #000;
+	--808: #808080;
+	--light: #e7e6e6;
+}
 
-.text-muted {color: gray;}
-.text-dark {color: black;}
-/* #calculator::after {
-	content: 'Calculator';
-	font-size: 70px;
-	transform: rotate(310deg);
-	position: absolute;
-	top: 0;
-	left: -60px;
-	z-index: -1;
-} */
+
+.text-muted {color: var(--808);}
+.text-dark {color: var(--000);}
+.container {background-color:  var(--light);}
+.container #keys button:first-child,
+.container #keys button:nth-child(2),
+.container #keys button:nth-child(3),
+.container #keys button:nth-child(4),
+.container #keys button:nth-child(5),
+.container #keys button:nth-child(6),
+.container #keys button:nth-child(7),
+.container #keys button:nth-child(8),
+.container #keys button:nth-child(12),
+.container #keys button:nth-child(16),
+.container #keys button:nth-child(20){background-color: lightgray;}
+.container .calculator__result *:last-child {color: var(--000);}

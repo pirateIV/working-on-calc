@@ -31,18 +31,6 @@ keys.forEach((number) => {
 	// update(7, 8, 9, 4, 5, 6, 3, 2, 1, 0)
 });
 
-
-
-// operators.forEach((operator) => {
-// 	operator.addEventListener('click', updateOperator);
-// 	function updateOperator(divide, multiply, minus, plus){
-// 		divide = '/'; multiply = '*', minus = '-', plus = '+'
-
-		
-
-// 		readOnlyDisplay.value += operator.textContent;
-// 		displayResult.value = '';
-// 	}
 // })
 
 operators.addEventListener('click', operator());
@@ -65,5 +53,4 @@ calc.addEventListener('click', calculate);
 function calculate(){
 	displayResult.value = readOnlyDisplay.value;
 
-	if(oper)
 }
