@@ -47,12 +47,14 @@ keys.forEach((number) => {
 
 operators.addEventListener('click', operator());
 
-function operator(number){
+function operator(oper){
 	// readOnlyDisplay.value += displayResult.value + number;
 	// readOnlyDisplay.value += oper;
 	// readOnlyDisplay.value = ''
+
+	readOnlyDisplay.value += oper.textContent;
 	
-	oper = num;
+	// oper = num;
 
 }
 
@@ -63,5 +65,5 @@ calc.addEventListener('click', calculate);
 function calculate(){
 	displayResult.value = readOnlyDisplay.value;
 
-	
+	if(oper)
 }
