@@ -2,6 +2,7 @@
 	--000: #000;
 	--808: #808080;
 	--light: #e7e6e6;
+	--aqua: #479ac7;
 }
 
 
@@ -19,4 +20,5 @@
 .container #keys button:nth-child(12),
 .container #keys button:nth-child(16),
 .container #keys button:nth-child(20){background-color: lightgray;}
+.container #keys button:last-child{background-color: var(--aqua);}
 .container .calculator__result *:last-child {color: var(--000);}

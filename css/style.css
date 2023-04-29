@@ -69,6 +69,3 @@ body {
 .container #keys button:hover {
 	background-color: #ddd;
 }
-.container #keys button:last-child{
-	background-color: #479ac7;
-}
